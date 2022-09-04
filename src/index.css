@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 /*Write Custom Classes Here*/
-@layer components {
+/* @layer components { */
 
-  /*Example Class*/
-  .custom-class{
+/*Example Class*/
+/* .custom-class{
     @apply flex bg-black w-full h-full
   }
   
-}
+} */
