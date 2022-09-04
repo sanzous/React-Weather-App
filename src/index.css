@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Write Custom Classes Here*/
+@layer components {
+
+  /*Example Class*/
+  .custom-class{
+    @apply flex bg-black w-full h-full
+  }
+  
+}
