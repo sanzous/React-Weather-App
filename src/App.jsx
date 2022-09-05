@@ -69,7 +69,7 @@ const App = () => {
         w-full 
         mx-auto
         my-auto'>
-          <div className="location">
+          <div>
             <span className='
             text-2xl 
             font-bold '>{data.name} </span>
@@ -99,15 +99,15 @@ const App = () => {
           p-4
           rounded-xl
           bg-white/20">
-            <div className="feelsLike">
+            <div>
               {data.main ? <p className='text-2xl'>{data.main.feels_like.toFixed()}°F</p> : null}
               <p className='font-bold'>Feels Like</p>
             </div>
-            <div className="humidity">
+            <div>
               {data.main ? <p className='text-2xl'>{data.main.humidity}% </p> : null}
               <p className='font-bold'>Humidity</p>
             </div>
-            <div className="wind">
+            <div>
               {data.wind ? <p className='text-2xl'>{data.wind.speed.toFixed()}MPH</p> : null}
               <p className='font-bold'>Wind Speed</p>
             </div>
