@@ -1,27 +1,35 @@
-# Using This Template
-
-To use this template run
-```
-git clone https://github.com/Joeyg61703/react-tailwind-template
-cd react-tailwind-template/
-npm install
-```
-After these 3 lines you have access to tailwind within your react project.
-
-## Available Scripts
-
-This template was created using create-react-app so you have acces to all of their commands.
-If you would like to learn more about these commands, you can find them [here](https://create-react-app.dev/docs/available-scripts).
-
-## Tailwind Config
-
-This template has no default configuration except for two primary color placeholders.
-If you would like to learn how to add your own configurations, you can find instructions [here](https://tailwindcss.com/docs/configuration).
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Simple Weather App
+Simple Weather App to get weather of searched city.
 
 
+![weatherapp](https://user-images.githubusercontent.com/46611195/191871543-1f483349-ae4f-4bac-a410-26c0a5efb2d9.png)
+
+
+Link to project: https://checkthedamnweather.netlify.app/
+
+
+
+
+# How It's Made:
+
+Tech used: React / Tailwind 
+
+
+Tech used was React and Tailwind. Makes simple API request to openweatherapp.org for searched city weather information.
+
+
+
+
+
+# Optimizations/Planned Features
+1) Changing background dependent on weather.
+2) Add more Info on location. Maybe use another API call to get more city information.
+3) Add more animations.
+4) Create tailwind styled components to make more readable code.
+
+
+
+
+
+# Lessons Learned:
+Simple app to showcase ability to make use of json data from a fetch request. Also practice for using React with simple inline Tailwind.
